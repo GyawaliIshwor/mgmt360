@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: #c7cace;
+}
+.main{
+    width: 700px;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #d0cecf;
+    /* border: 3px solid rgb(27, 24, 24); */
+    box-shadow: inset;
+    align-items: center;
+    position: relative;
+}
+.login-div{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.credentialContainer{
+    
+    border: 2px solid black;
+    /* width: 100%; */
+    /* display: inline-block; */
+    /* height: 40px; */
+    /* padding: 8px 0px; */
+    /* height: fit-content; */
+    /* margin-top: 10px; */
+    color: white;
+
+}
+.credentialContainer .label{
+    background: #4473c5;
+    width: 40%;
+    padding: 3% 5%;
+    border-radius: 5px;
+    border: none;
+   
+}
+.credentialContainer .input {
+    width: 60%;
+    background: #4473c5;
+    border-radius: 5px;
+    border: none;
+    color: white;
+   
+}
+.credentialContainer input {
+    background: #4473c5;
+    padding: 3% 5%;
+    width: 100%;
+    border: none;
+    color: white;
+   
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    color: white;
+    cursor: text;
+}
+.credentialContainer input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  .btn{
+      color: white;
+      background: #4473c5;
+      padding: 2% 5%;
+      border-radius: 5px;
+      border: none;
+      width: 150px;
+  }
+  .btn:hover{
+      border: 2px solid black;
+  }
+  .btn a{
+      text-decoration: none;
+      color: white;
+  }
+
+  .form-table table{
+    border: 1.5px solid rgb(21, 24, 61);
+    border-radius: 5px;
+  }
+@media only screen and (max-width: 768px) {
+  .main{
+      width: 70%;
+  }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .main{
+        width: 100%;
+        border: none;
+    }
+    .img-container{
+        width: 200px!important;
+    
+    }
+    
+    .img-container img{
+        width: 100%;
+        height: auto !important;
+        
+    }
+
+    }
+table tr td{
+    border: 1px solid block;
+    border-collapse: collapse;
+}
+
+.browse-review{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-height: 100%; */
+    /* overflow-y: scroll; */
+    
+    
+}
+.review-div{
+    padding: 2% 1%;
+    display: flex;
+    border: 1px solid #4473c5;
+    background-color: #e7ebf0;
+    margin-top: 5px;
+
+
+}
+.img-container{
+    width: 30%;
+
+}
+
+.img-container img{
+    width: 100%;
+    height: 150px;
+    
+}
+.reviews{
+    padding: 0% 3%;
+    text-align: left;
+}
+.review-by{
+    text-align:left;width:fit-content;float:right;
+}
+.icon{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+}
